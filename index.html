@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Even Meshack | Software Engineer</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link rel="icon" type="image/x-icon" href="assets/fav.ico"> 
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --accent-color: #e74c3c;
+            --light-color: #ecf0f1;
+            --dark-color: #2c3e50;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        
+        .hero-section {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 5rem 0;
+        }
+        
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border: 5px solid white;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        .skills-badge {
+            background-color: var(--light-color);
+            color: var(--dark-color);
+            padding: 0.5rem 1rem;
+            margin: 0.3rem;
+            border-radius: 20px;
+            display: inline-block;
+            font-weight: 500;
+        }
+        
+        .project-card {
+            transition: transform 0.3s ease;
+            border: none;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .project-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .testimonial-card {
+            border-left: 4px solid var(--secondary-color);
+        }
+        
+        footer {
+            background-color: var(--dark-color);
+            color: white;
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Even Meshack</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About FMSPoint</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section text-center">
+        <div class="container">
+            <img src="assets/dev.jpg" alt="Even Meshack" class="profile-img rounded-circle mb-4">
+            <h1 class="display-4 fw-bold">Even Meshack</h1>
+            <p class="lead">Tanzanian Software Engineer | Founder of FMSPoint</p>
+            <div class="mt-4">
+                <a href="https://instagram.com/venvokjr" target="_blank" class="btn btn-light btn-lg mx-2">
+                    <i class="bi bi-instagram"></i> Personal
+                </a>
+                <a href="https://instagram.com/fmspoint" target="_blank" class="btn btn-outline-light btn-lg mx-2">
+                    <i class="bi bi-instagram"></i> FMSPoint
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="fw-bold mb-4">About Me</h2>
+                    <p class="lead">I'm a Tanzanian software engineer specializing in building practical solutions for local challenges. My passion lies in creating software that simplifies everyday problems for Tanzanians.</p>
+                    <p>I developed FMSPoint (fmspoint.com) to revolutionize financial management for community events after witnessing the struggles organizers face during fundraising activities like harambees, weddings, and other social gatherings.</p>
+                    <p>With expertise in multiple programming languages and a deep understanding of local needs, I bridge the gap between technology and practical solutions for Tanzanian communities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">Technical Skills</h2>
+            <div class="text-center">
+                <span class="skills-badge">HTML5</span>
+                <span class="skills-badge">CSS3</span>
+                <span class="skills-badge">JavaScript</span>
+                <span class="skills-badge">Python</span>
+                <span class="skills-badge">C</span>
+                <span class="skills-badge">C++</span>
+                <span class="skills-badge">Bootstrap</span>
+                <span class="skills-badge">Responsive Design</span>
+                <span class="skills-badge">Problem Solving</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">Featured Project</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card project-card">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="https://fmspoint.com/static/assets/logo.png" class="img-fluid rounded-start p-4" alt="FMSPoint">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h3 class="card-title">FMSPoint</h3>
+                                    <p class="card-text">A comprehensive financial management system designed specifically for Tanzanian event organizers to track contributions, send SMS updates, and maintain transparency throughout fundraising events.</p>
+                                    <a href="https://fmspoint.com" target="_blank" class="btn btn-primary">Visit Website</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">What People Say</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body testimonial-card">
+                            <p class="card-text">"Even's work on FMSPoint has transformed how we manage our church fundraising events. The SMS reminders to contributors have increased our collection rates significantly."</p>
+                        </div>
+                        <div class="card-footer bg-transparent">
+                            <strong>Eben Richard</strong><br>
+                            <small class="text-muted">Church Event Coordinator</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body testimonial-card">
+                            <p class="card-text">"As a wedding planner, FMSPoint has saved me countless hours of manual tracking. Even understood exactly what Tanzanian event organizers need in a financial tool."</p>
+                        </div>
+                        <div class="card-footer bg-transparent">
+                            <strong>Faraja Meshack</strong><br>
+                            <small class="text-muted">Professional Event Planner</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-5 text-center bg-primary text-white">
+        <div class="container">
+            <h2 class="fw-bold mb-4">Ready to Discuss Your Project?</h2>
+            <a href="contact.html" class="btn btn-light btn-lg">Get In Touch</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; 2025 Even Meshack. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="https://www.atc.ac.tz" target="_blank" class="text-white mx-2">ATC Website</a>
+                    <a href="https://www.tanzaniaparks.go.tz" target="_blank" class="text-white mx-2">TANAPA</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

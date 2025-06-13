@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About FMSPoint | Even Meshack</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link rel="icon" type="image/x-icon" href="assets/fav.ico"> 
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --accent-color: #e74c3c;
+            --light-color: #ecf0f1;
+            --dark-color: #2c3e50;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .hero-section {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 4rem 0;
+        }
+        
+        .feature-icon {
+            font-size: 2.5rem;
+            color: var(--secondary-color);
+            margin-bottom: 1rem;
+        }
+        
+        .feature-card {
+            transition: all 0.3s ease;
+            border: none;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            height: 100%;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        
+        footer {
+            background-color: var(--dark-color);
+            color: white;
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Even Meshack</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html">About FMSPoint</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container text-center">
+            <img src="https://fmspoint.com/static/assets/logo.png" alt="FMSPoint Logo" class="img-fluid mb-4" style="max-height: 100px;">
+            <h1 class="display-4 fw-bold">Financial Management Made Simple</h1>
+            <p class="lead">Designed specifically for Tanzanian event organizers</p>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="fw-bold mb-4">Our Mission</h2>
+                    <p class="lead">FMSPoint was created to bring transparency, efficiency, and professionalism to event fundraising in Tanzania.</p>
+                    <p>We believe every organizer should have access to powerful tools that simplify financial tracking and communication, specifically designed for the Tanzanian context with SMS integration for maximum reach.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">Why Choose FMSPoint</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card feature-card p-4 text-center">
+                        <div class="feature-icon">
+                            <i class="bi bi-shield-lock"></i>
+                        </div>
+                        <h3>Reliable</h3>
+                        <p>Built with robust architecture to handle all your event data securely</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card feature-card p-4 text-center">
+                        <div class="feature-icon">
+                            <i class="bi bi-phone"></i>
+                        </div>
+                        <h3>Mobile-Friendly</h3>
+                        <p>Access your event data anytime, anywhere from any device</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card feature-card p-4 text-center">
+                        <div class="feature-icon">
+                            <i class="bi bi-headset"></i>
+                        </div>
+                        <h3>Support</h3>
+                        <p>Dedicated Tanzanian-based support team ready to assist you</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card feature-card p-4 text-center">
+                        <div class="feature-icon">
+                            <i class="bi bi-arrow-repeat"></i>
+                        </div>
+                        <h3>Continuous Updates</h3>
+                        <p>Regular improvements based on user feedback</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Target Audience -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="fw-bold mb-4">Manage Your Event Finances with Ease</h2>
+                    <p>FMSPoint is specifically designed for Tanzanian event organizers handling:</p>
+                    <ul class="list-group list-group-flush mb-4">
+                        <li class="list-group-item">Wedding contributions tracking</li>
+                        <li class="list-group-item">Harambees and community fundraisers</li>
+                        <li class="list-group-item">Church and religious events</li>
+                        <li class="list-group-item">Social gathering finances</li>
+                    </ul>
+                    <p>Our SMS integration ensures all contributors receive automatic updates, reminders, and thank you messages - perfect for Tanzania's mobile-first environment.</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="assets/celebration_3.png" alt="Tanzanian Event" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-5 bg-primary text-white text-center">
+        <div class="container">
+            <h2 class="fw-bold mb-4">Ready to streamline your event finances?</h2>
+            <a href="contact.html" class="btn btn-light btn-lg">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; 2025 Even Meshack. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="https://www.atc.ac.tz" target="_blank" class="text-white mx-2">ATC Website</a>
+                    <a href="https://www.tanzaniaparks.go.tz" target="_blank" class="text-white mx-2">TANAPA</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
